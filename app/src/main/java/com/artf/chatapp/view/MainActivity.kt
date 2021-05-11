@@ -118,7 +118,7 @@ class MainActivity : AppCompatActivity() {
     private fun startSignInActivity() {
         val providers = mutableListOf(
             AuthUI.IdpConfig.EmailBuilder().build(),
-            AuthUI.IdpConfig.FacebookBuilder().build(),
+            // AuthUI.IdpConfig.FacebookBuilder().build(),
             AuthUI.IdpConfig.GoogleBuilder().build(),
             AuthUI.IdpConfig.PhoneBuilder().build()
         )
